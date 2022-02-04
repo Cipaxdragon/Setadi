@@ -1,6 +1,8 @@
 # Belajar_Website
 
-##Preview 
+## Preview 
 ```
-https://htmlpreview.github.io/?https://github.com/Cipaxdragon/Setadi/blob/main/index.html
+
 ```
+
+<a href="https://htmlpreview.github.io/?https://github.com/Cipaxdragon/Setadi/blob/main/index.html">Klik Ini<>
