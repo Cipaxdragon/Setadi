@@ -2,11 +2,7 @@
 Belajar Websait
 </h1>
 
-
-
-## Preview 
-
-<a href="https://htmlpreview.github.io/?https://github.com/Cipaxdragon/Setadi/blob/main/index.html">Klik Ini</a>
+<a href="https://htmlpreview.github.io/?https://github.com/Cipaxdragon/Setadi/blob/main/index.html">Klik Ini Untuk Preview</a>
   
 
 
