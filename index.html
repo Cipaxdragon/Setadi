@@ -42,10 +42,7 @@
                     <input type="checkbox">Makan Tidur Berak
                 </li>
                 <li>
-                    <input type="checkbox">
-                    <label style="text-align:justify">
-                        Hiling Hiling Tai Anjing Terus kasi Habis Uang saja nda perna juga belajar, Belajar Ko Sunna Sussa Ngoding tod
-                    </label>
+                    <input type="checkbox">Hiling Hiling Sampe Ujung Dunia
                 </li>
                 <li>
                     <input type="checkbox">Belajar Ngoding Sampe Mampus
@@ -132,7 +129,7 @@
                 <dt><b>STRUKTUR HTML</b></dt>
                 <ul>
                     <li>
-                        <img style="
+                        <img width="30%" style="
                             position: absolute;
                         " src="img/image1.PNG">
                     </li>
@@ -269,20 +266,20 @@
             <br>
             <a href="../main.cpp" target="_blank">Klik Ini</a>
 
-            
+       
         </div>
 
 
 <!-- belajar Image-->
         
-        <div style="padding: 10px;">
+        <div class="belajar-image" style="padding: 10px;">
             <h2>Belajar Image</h1>
             <hr>
-            <img style="margin: 15px;" src="img/a.png" alt="apare" title="gambar apare" width="360 ">
+            <img style="margin: 15px;" src="img/a.png" alt="apare" title="gambar apare">
             <a href="https://cerdas.com" target="_blank">
-                <img style="margin: 15px;" src="img/bg2.jpg " alt="apare" title="gambar apare" width="360 ">
+                <img style="margin: 15px;" src="img/bg2.jpg " alt="apare" title="gambar apare" >
             </a>
-            <img style="margin: 15px;" src="img/Bg1.jpg" alt="apare" title="gambar apare" width="320 ">       
+            <img style="margin: 15px;" src="img/Bg1.jpg" alt="apare" title="gambar apare" >       
         </div>
 
 
@@ -479,7 +476,7 @@
 
         <div >
             <style>
-                .link:link{
+                #link:link{
                     color: gold;
                 }
                 .hover:hover{
@@ -496,12 +493,56 @@
                 }
             </style>
             <h1>Pseudo Class </h1>
-            <li class="link"><a href="#">:link</a></li>
+            <hr>
+            <li id="link"><a href="#">:link</a></li>
             <li class="hover"><a href="#">:hover</a></li>
             <li class="active"><a href="#">:active</a></li>
             <li class="visited"><a href="#">:visited</a></li>
         </div>
-    
-        
+        <div class="belajar-display">
+            <style>
+                .belajar-display{
+                    display: inline-block;
+                    width: 50vm;
+                }
+                .belajar-display h1{
+                    display: inline;
+                }
+                .inlen li{
+                    display: inline;
+
+                }
+                .belok li{
+                    display: block;
+                }
+            </style>
+            
+            <h3>
+                Belajar Display 
+            </h3>
+            <hr>
+            <h1>Ini Elemen h1</h1>
+            <h1>Anjay H1</h1>
+            <h5>
+                Inline
+            </h5>
+            <ul class="inlen">
+                <li><a href="#">Link 1</a></li>
+                <li><a href="#">Link 2</a></li>
+                <li><a href="#">Link 3</a></li>
+                <li><a href="#">Link 4</a></li>
+                <li><a href="#">Link 5</a></li>
+            </ul>
+            <h5>
+                Block
+            </h5>
+            <ul class="belok" >
+                <li><a href="#">Link 1</a></li>
+                <li><a href="#">Link 2</a></li>
+                <li><a href="#">Link 3</a></li>
+                <li><a href="#">Link 4</a></li>
+                <li><a href="#">Link 5</a></li>
+            </ul>
+        </div>           
     </body>
 </html>
