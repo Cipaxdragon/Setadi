@@ -510,7 +510,7 @@
                 }
                 .inlen li{
                     display: inline;
-
+                    
                 }
                 .belok li{
                     display: block;
@@ -524,6 +524,12 @@
             <h1>Ini Elemen h1</h1>
             <h1>Anjay H1</h1>
             <h5>
+                <ul>
+                    <li>inline</li>
+                    <li>inline-Block</li>
+                    <li>Block</li>
+                    <li>None</li>
+                </ul>
                 Inline
             </h5>
             <ul class="inlen">
@@ -544,12 +550,71 @@
                 <li><a href="#">Link 5</a></li>
             </ul>
         </div>
-        <div class="dimensi-overflow">
+<!-- dimensi dan overflow       -->
+        <div>
+            <style>
+                .absolute{
+                    width: 900px;
+                    background-color: red;
+                    background-image: none;
+                }
+                .absolute .tes{
+                    background-image: none;
+                    width: 900px;
+                    background-color: blue;
 
-            <h3>Anjay</h3>
-            <hr>
-            kkokaowkaowkaokwo
-				"text.html.markdown markup.inline.raw"
+                }
+                .relative{
+                    width: 50%;
+                    background-color: red;
+                    
+                }
+                .relative div{
+                    background-image: none;
+                    background-color: #222222;
+                }
+
+                .overflow div{
+                    width: 30%;
+                    background-color: #00e1ff38;
+                    background-image: none;
+                    height: 300px;
+                    overflow: scroll;
+                }
+            </style>
+           <h1>Belajar Dimensi Dan Overflow</h1><hr>
+            <h4>Dimensi</h4>
+            Ini Absloute
+            <div class="absolute">
+                Hello tod
+                <div class="tes">
+                    anjaadasd
+                </div>
+            </div>
+            Ini Relative
+            <br>
+            <i>Jika Ingin Melihat Perbedaanya Silahkan DiPerkecil Layar Browsernya</i>
+            <div class="relative">
+                <div>
+                    Anjay
+                </div>
+                <h4>Hello Warld</h4>
+            </div>
+            
+            <h4>Overflow</h4>
+            
+            <div class="overflow">
+                <div>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse quis libero nulla. Sed ultricies fringilla arcu. Praesent at lectus sem. Vivamus at lacus nec leo vehicula commodo. Nunc vulputate porta mi a finibus. Vivamus interdum urna risus, auctor pharetra risus auctor sed. Sed congue metus et venenatis suscipit. Nullam sagittis lacus sit amet dolor lacinia, eget feugiat est efficitur. Nullam id metus at ante imperdiet tincidunt sit amet et libero. Nulla molestie libero a pellentesque convallis. Etiam sed lectus nisl. Proin metus est, ultricies sed consequat a, feugiat dictum mauris. Cras malesuada, nisl quis facilisis facilisis, lorem lectus tristique justo, et imperdiet justo massa sed libero.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse quis libero nulla. Sed ultricies fringilla arcu. Praesent at lectus sem. Vivamus at lacus nec leo vehicula commodo. Nunc vulputate porta mi a finibus. Vivamus interdum urna risus, auctor pharetra risus auctor sed. Sed congue metus et venenatis suscipit. Nullam sagittis lacus sit amet dolor lacinia, eget feugiat est efficitur. Nullam id metus at ante imperdiet tincidunt sit amet et libero. Nulla molestie libero a pellentesque convallis. Etiam sed lectus nisl. Proin metus est, ultricies sed consequat a, feugiat dictum mauris. Cras malesuada, nisl quis facilisis facilisis, lorem lectus tristique justo, et imperdiet justo massa sed libero.
+                </div>
+            </div>
         </div >
+        <div>
+            <h3>Belajar Box Model</h3>
+            <hr>
+            <p>Box Model Adalah Kontolodon</p>
+        </div>
     </body>
+    
 </html>
