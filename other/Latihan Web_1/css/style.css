@@ -4,6 +4,8 @@
     margin: 0px;   
 }
 body{
+    background-image: url(../../../img/Bg1.jpg);
+    background-size: cover;
     margin: 0px;
 }
 
@@ -15,6 +17,7 @@ h1{
     font-family: gilroy;
 }
 .tabdalam .heroimage{
+    back
     margin: 20px 0px;
     width: 100%;
 }
@@ -47,7 +50,10 @@ p{
     margin: 0px auto;
     /* width: 800px; */
     /* width: 100%; */
-    background-color: rgb(199, 199, 199);
+    background-color: #c7c7c75b;
+    backdrop-filter: blur(25px);
+    border-radius: 10px;
+    border: rgb(157, 157, 157) 0.2px solid;
     /* border-radius: 10px; */
     
     padding-bottom: 0px;
