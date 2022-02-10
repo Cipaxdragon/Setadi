@@ -1,7 +1,8 @@
 // //alert
 // alert("Ini Cuma WebSait Untuk Latihan Moon Maap Kalo Jeleq");
 // alert("By Asep");
- 
+
+
 
 //variabel
 var num = 0;
