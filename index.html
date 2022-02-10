@@ -824,11 +824,123 @@
         </div>
         <div class="position">
             <style>
-                .kotak
+                .position div{
+                    background-image: none;
+                    background-color: none;
+                    border-radius: 0px;
+                    border: 1px red solid;
+
+                }
+
+                div .rectangle{
+                    background-image: none;
+                    width:100px;
+                    height: 100px;
+                    border: none;
+                    margin: 0px;
+
+                }
+                .merah{
+                    background-color: salmon;
+                }
+
+                .biru{
+                    background-color: skyblue;
+                }
+                .relatip .biru{
+                    position: relative;
+                    top: 10px;
+                    left: 10px;
+                }
+
+                .absolut .biru{
+                    position: absolute;
+                    top: 0px;
+                    right: 0px;
+                }
+                .absolut{
+                    position: relative;
+                }
+
+                .pixed #kotak-biru{
+                    border:1px solid black;
+                    height: 70px;
+                    background-color: black;
+                    position: fixed;
+                    bottom: 0px;
+                    right: -40px;
+                    width: 300px;
+                    border-radius: 100px;
+
+                }
+                .pixed #kotak-biru img{
+                    height: 100%;
+                }
+                .pixed #kotak-biru .nama{
+                    background-color: none;
+                    display: inline-block;
+                    margin: 0px;
+                    left: 15px;
+                    color: white;
+                    position: relative;
+                    bottom: 30px;
+                    font-family: tamvan;
+                    font-size: 13px;
+                }
+                .hijo{
+                    background-color: greenyellow;
+                }
+
+
+                
             </style>
             <h3>Belajar Position</h3>
             <hr>
+            <p>Position : </p>
+            <ul>
+                <li>Static</li>
+                <li>Relative</li>
+                <li>Absolute</li>
+                <li>Fixed</li>
+            </ul>
+            <li>static adalah nilai defalult dari tiap tipa elemen katika tidak diberi properti Position</li>
+            <li>Menggunakan Position Selain Static (non-static), akan membuat sebuah elemen menjadi seolah olah berbebda dimensi dari elemen lainya</li>
+            <li>Elemen yang diberi position selain static dapat menggunakan properti top left button left right untuk mengatur posisinya</li>
+            <div class="static">
+                <h3>Position Static</h3>
+                <div class="rectangle merah"></div>
+                <div class="rectangle biru"></div>
+                <div class="rectangle hijo"></div>
+            </div>
 
+            <div class="relatip">
+                <h3>Position relative</h3>
+                <div class="rectangle merah"></div>
+                <div class="rectangle biru"></div>
+                <div class="rectangle hijo"></div>
+            </div>
+            <div class="absolut">
+                <h3>Position Absolute</h3>
+                <div class="rectangle merah"></div>
+                <div class="rectangle biru"></div>
+                <div class="rectangle hijo"></div>
+            </div> 
+            <div class="pixed">
+                <h3>Position Fixed</h3>
+                <div class="rectangle merah"></div>
+                <div >yang bacanya jangan lupa berak itu positionya fixed</div>
+                <div id="kotak-biru">
+                    <a href="https://xnxx.com">
+                        <img src="img/Kaset.gif" alt="kaset">
+                        <center>
+                            <p  class="nama" >JANGAN LUPA BERAK</p>
+                        </center>
+                    </a>
+                </div>
+                <div class="rectangle hijo"></div>
+            </div>
+
+            
         </div>
 </body>
 </html>
