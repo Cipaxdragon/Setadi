@@ -6,8 +6,20 @@ p{
     font-family: gil;
     text-align: justify;
 }
-
+/* 
 div{
+    margin: 20px 20px;
+    border: rgb(223, 223, 223) 1px solid;
+    width: 100;
+    border-radius: 10px;
+    padding: 16px;
+
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+  
+}  */
+
+
+.kontainer{
     margin: 20px 20px;
     border: rgb(223, 223, 223) 1px solid;
     width: 100;
@@ -106,4 +118,9 @@ body{
     line-height: 80px; /* jika ingin content berada di tengah kotak value dari  line height harus sama dengan value dari properti height  */
     float: left;
     border-radius: 0px;
+}
+
+.boks{
+    border: 1px red solid;
+    
 }
