@@ -1,6 +1,7 @@
-// //alert
-// alert("Ini Cuma WebSait Untuk Latihan Moon Maap Kalo Jeleq");
-// alert("By Asep");
+//alert
+alert("Ini Cuma WebSait Untuk Latihan Moon Maap Kalo Jeleq");
+alert("Jangan Buka Website Ini di hp karna karena Website ini tidak responsive");
+alert("By Asep");
 
 
 
@@ -8,7 +9,6 @@
 var num = 0;
 
 //function
-
 
 function tambah(){
     num = num + 1;

@@ -1,0 +1,1 @@
+alert("Coba liat juga website ini juga di hp");
