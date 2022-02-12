@@ -1,15 +1,12 @@
 //alert
-alert("Ini Cuma WebSait Untuk Latihan Moon Maap Kalo Jeleq");
-alert("Jangan Buka Website Ini di hp karna karena Website ini tidak responsive");
-alert("By Asep");
-
-
+alert("Ini Cuma WebSait Untuk Latihan Moon Maap Kalo Jeleq Tapi Jelek Memang si");
+alert("Jangan Buka Website Ini di hp karna  Website ini tidak responsive");
 
 //variabel
 var num = 0;
 
-//function
 
+//function
 function tambah(){
     num = num + 1;
     document.getElementById("angka").innerHTML = num;
