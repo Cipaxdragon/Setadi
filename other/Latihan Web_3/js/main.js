@@ -1,1 +1,1 @@
-alert("Coba liat juga website ini juga di hp");
+alert("Coba liat juga website ini juga di hp dan di laptop");
