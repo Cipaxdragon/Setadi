@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <title></title>
+        <meta name="author" content="Ahmad Ghazali">
+        <script src="js/main.js" ></script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1 class="title">Belajar Transform</h1>
+        <center>
+            <img src="img/code.png" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut dicta, sequi delectus animi nam exercitationem quae accusamus deleniti sapiente expedita nulla beatae reprehenderit, impedit hic quaerat fuga maxime quam. Enim!</p>
+        </center>
+        <style>
+
+            p::selection{
+                color:white;
+                background-color: black;
+            }
+            img{
+                width: 400px;
+                transition: 0.5s;
+            }
+            img:hover{
+                transform: scale(1.1);
+            }
+            /* transfrom :
+            transform : <fungsi>
+             */
+        </style>
+        <script>
+        // Value Value transform :            	
+            // matrix(n,n,n,n,n,n)	Defines a 2D transformation, using a matrix of six values	
+            // matrix3d(n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n)	Defines a 3D transformation, using a 4x4 matrix of 16 values	
+            // translate(x,y)	Defines a 2D translation	
+            // translate3d(x,y,z)	Defines a 3D translation	
+            // translateX(x)	Defines a translation, using only the value for the X-axis	
+            // translateY(y)	Defines a translation, using only the value for the Y-axis	
+            // translateZ(z)	Defines a 3D translation, using only the value for the Z-axis	
+            // scale(x,y)	Defines a 2D scale transformation	
+            // scale3d(x,y,z)	Defines a 3D scale transformation	
+            // scaleX(x)	Defines a scale transformation by giving a value for the X-axis	
+            // scaleY(y)	Defines a scale transformation by giving a value for the Y-axis	
+            // scaleZ(z)	Defines a 3D scale transformation by giving a value for the Z-axis	
+            // rotate(angle)	Defines a 2D rotation, the angle is specified in the parameter	
+            // rotate3d(x,y,z,angle)	Defines a 3D rotation	
+            // rotateX(angle)	Defines a 3D rotation along the X-axis	
+            // rotateY(angle)	Defines a 3D rotation along the Y-axis	
+            // rotateZ(angle)	Defines a 3D rotation along the Z-axis	
+            // skew(x-angle,y-angle)	Defines a 2D skew transformation along the X- and the Y-axis	
+            // skewX(angle)	Defines a 2D skew transformation along the X-axis	
+            // skewY(angle)	Defines a 2D skew transformation along the Y-axis	
+            // perspective(n)	Defines a perspective view for a 3D transformed element	
+            // initial	Sets this property to its default value. Read about initial	
+            // inherit	Inherits this property from its parent element. Read about inherit
+        </script>
+    </body>
+</html>

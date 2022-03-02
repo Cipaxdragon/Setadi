@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <title>Belajar Prefix Dan Vendor Prefix</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1 class="title">Belajar Filter</h1>
+        <img src="img/code.png" class="njay" alt="">
+    <!-- Filter Syntax : -->
+    <style>
+    .filter{
+        filter: blur(px);
+        filter: brightness();
+        filter: contrast(px);
+        filter: saturate(px);
+        filter: grayscale(px);
+        filter: sepia(px);
+        filter: hue-rotate(deg);
+        filter: invert(deg);
+        filter: opacity(deg);
+        filter: dropshadow(deg); /* sama seperti box shadow */
+    
+    }
+    .njay{
+        transition: 1s;
+        display: block;
+        width: 200px;
+        margin: auto;
+        filter: grayscale(100%) blur(5px);
+
+    }
+    .njay:hover{
+        filter: grayscale(0%) blur(0px);
+
+    }
+    #vendor-prefix{
+        /* Syntax Vendor Prefix
+        Android, Chrome, IOS, Safari :-webkit- 
+        Firefox : -moz-
+        Opera : -o-
+        */
+    
+        /* Contoh  Penggunaah : */
+    
+        -webkit-filter: invert(50px);
+        filter: invert(50px);
+    
+    }
+    </style>
+    </body>
+    
+
+</html>

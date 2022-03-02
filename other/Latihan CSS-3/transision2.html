@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1 class="title">Transision Main Ease</h1>
+        <div class="container">
+            <div class="kotak kotak1">kotak1</div>
+            <div class="kotak kotak2">kotak2</div>
+            <div class="kotak kotak3">kotak3</div>
+            <div class="kotak kotak4">kotak4</div>
+            <div class="kotak kotak5">kotak5</div>
+            <div class="kotak kotak6">kotak6</div>
+
+        </div>
+    </body>
+    <style>
+        .container{
+            margin: auto;
+            width: 900px;
+            border: 1px solid white;
+        }
+        
+        .kotak{
+            height: 100px;
+            width: 100px;
+            text-align: center;
+            line-height: 100px;
+            margin: 10px 0px;
+            
+            background-color: red;
+        }
+        
+        .kotak1{
+            transition: 1s ease;
+
+        }
+        .kotak2{
+            transition: 1s ease-in;
+
+        }
+        .kotak3{
+            transition: 1s ease-out;
+        }
+        .kotak4{
+            transition: 1s ease-in-out;
+
+        }
+        .kotak5{
+            transition: 1s linear;
+
+        }
+        .kotak6{
+            transition: 1s ease;
+
+        }
+                
+
+        
+        
+        
+        .container:hover .kotak{
+            margin-left: 800px;
+            background-color: cyan;
+            transform: rotate(180deg);
+        }
+        
+
+    </style>
+    <script>
+        // Perbedaan Transision dan Animation :
+        //     Transision : Ialah pergerakan yang mempunyai Keadaan Awal Kemudian Berpindah Nilai (transisi) Ke Keaadaan Akhir
+        //     sedangkan 
+        //     Animation : ialah pergerakan yang memnpunyai lebih dari satu titik(keyframe)
+        // Anatomi Transision:
+            // transison : [properti] <durasi> [fungsi] [delay];
+
+        // Non Animate properti :
+        //    font-family
+        //    position
+        //    display
+        //    dll     
+    </script>
+</html>

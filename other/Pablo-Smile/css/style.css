@@ -57,11 +57,11 @@ body{
 }
 
 .tombol:hover{
-    transform: scale(1.1);
     background-color: #7ED4E7;
     color: #08252B;
 }
 .tombol:active{
+    transform: scale(1.1);
     background-color: salmon;
     border: 1px solid salmon
 

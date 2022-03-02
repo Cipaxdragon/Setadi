@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1 class="title">Transision</h1>
+        <div class="container">
+            <div class="kotak"></div>
+        </div>
+    </body>
+    <style>
+        .container{
+            margin: auto;
+            width: 900px;
+            border: 1px solid white;
+        }
+        
+        .kotak{
+            height: 200px;
+            width: 200px;
+            
+            transition: margin-left 1s;
+            transition: all 1s;
+            transition: background-color 1s;
+            transition: 1s;
+
+            background-color: red;
+        }
+        .container:hover .kotak{
+            margin-left: 700px;
+            background-color: cyan;
+            transform: rotate(180deg);
+        }
+        
+
+    </style>
+    <script>
+        // Perbedaan Transision dan Animation :
+        //     Transision : Ialah pergerakan yang mempunyai Keadaan Awal Kemudian Berpindah Nilai (transisi) Ke Keaadaan Akhir
+        //     sedangkan 
+        //     Animation : ialah pergerakan yang memnpunyai lebih dari satu titik(keyframe)
+        // Anatomi Transision:
+            // transison : [properti] <durasi> [fungsi] [delay];
+
+        // Non Animate properti :
+        //    font-family
+        //    position
+        //    display
+        //    dll     
+    </script>
+</html>
