@@ -1,0 +1,122 @@
+Refernesi Referensi Boostrap : 
+
+container
+    container-fluid
+    
+    container p-5 my-5 border
+    container p-5 my-5 bg-dark text-white
+    container p-5 my-5 bg-primary text-white
+
+    container-sm	
+    container-md
+    container-lg	
+    container-xl	
+    container-xxl
+
+Grid Basic
+    .col- (extra small devices - screen width less than 576px)
+    .col-sm- (small devices - screen width equal to or greater than 576px)
+    .col-md- (medium devices - screen width equal to or greater than 768px)
+    .col-lg- (large devices - screen width equal to or greater than 992px)
+    .col-xl- (xlarge devices - screen width equal to or greater than 1200px)
+    .col-xxl- (xxlarge devices - screen width equal to or greater than 1400px)
+
+    row
+    col
+
+Colors : 
+    bg-primary
+    bg-success
+    bg-info
+    bg-warning
+    bg-danger
+    bg-secondary
+    bg-dark
+    bg-light
+
+table
+    table
+    table-striped
+    table-bordered
+    table-hover
+    table-dark
+    table-striped table-dark
+    table-striped table-dark table-hover
+
+
+    table-primary	
+    table-success	
+    table-danger	
+    table-info	
+    table-warning	
+    table-active	
+    table-secondary	
+    table-light
+
+    table-sm
+    table-responsive
+
+    table-responsive-sm	< 576px
+    table-responsive-md	< 768px
+    table-responsive-lg	< 992px
+    table-responsive-xl	< 1200px
+    table-responsive-xxl
+    
+images
+    rounded
+    rounded-circle
+    img-thumbnail
+    float-start
+    float-end
+
+    kasi tengah elemen
+        mx-auto d-block
+
+Jumbotron
+    mt-4 p-5 bg-primary text-white rounded
+
+
+Button 
+    btn
+    btn btn-primary
+    btn btn-secondary
+    btn btn-success
+    btn btn-info
+    btn btn-warning
+    btn btn-danger
+    btn btn-dark
+    btn btn-light
+    btn btn-link
+
+    btn-outline-primary 
+    btn-outline-secondary 
+    btn-outline-success 
+    btn-outline-info 
+    btn-outline-warning 
+    btn-outline-danger 
+    btn-outline-dark 
+    btn-outline-light 
+
+
+    Block Level Buttons
+        <div class="d-grid">
+            <button type="button" class="btn btn-primary btn-block">Full-Width Button</button>
+        </div>
+    
+    Button Sizes
+        <button type="button" class="btn btn-primary btn-lg">Large</button>
+        <button type="button" class="btn btn-primary">Default</button>
+        <button type="button" class="btn btn-primary btn-sm">Small</button>
+
+List Groups
+    <ul class="list-group">
+        <li class="list-group-item">First item</li>
+        <li class="list-group-item">Second item</li>
+        <li class="list-group-item">Third item</li>
+    </ul>
+
+Dropdown
+    https://www.w3schools.com/bootstrap5/bootstrap_dropdowns.php
+
+
+
